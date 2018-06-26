@@ -1,0 +1,16 @@
+PODS:
+  - DisplaySwitcher (1.0.1)
+
+DEPENDENCIES:
+  - DisplaySwitcher (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DisplaySwitcher
+
+SPEC CHECKSUMS:
+  DisplaySwitcher: 5f725284c28cdf22ea7ba2eee8e8f7e7cb9cdf87
+
+PODFILE CHECKSUM: c49df65bc73a6276679f19cf7e98a9f171651991
+
+COCOAPODS: 1.5.3

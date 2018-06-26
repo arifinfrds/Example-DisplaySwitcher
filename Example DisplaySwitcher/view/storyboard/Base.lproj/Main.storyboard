@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Spu-5W-3wU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--DisplaySwitcher-->
+        <scene sceneID="2jT-d2-Eym">
+            <objects>
+                <viewController id="7o5-eX-Ave" customClass="CoffeeViewController" customModule="Example_DisplaySwitcher" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="6HG-V3-IYK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="96V-39-8wu">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells/>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="DisplaySwitcher" id="7lO-78-TUB">
+                        <barButtonItem key="rightBarButtonItem" image="baseline_grid_on_black_24pt_1x" id="BXI-tP-Psa">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="changeLayout:" destination="7o5-eX-Ave" id="i64-Et-Euy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="6HG-V3-IYK" id="wKk-HX-puG"/>
+                        <outlet property="rotationButton" destination="BXI-tP-Psa" id="BJB-Gi-fx2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IRx-sh-4TL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="593" y="107"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dg5-0f-J0g">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Spu-5W-3wU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="KSa-Hi-bCG">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7o5-eX-Ave" kind="relationship" relationship="rootViewController" id="aDa-6Q-vAM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PPN-XH-ZYK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-76" y="107.49625187406298"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="baseline_grid_on_black_24pt_1x" width="24" height="24"/>
+    </resources>
+</document>

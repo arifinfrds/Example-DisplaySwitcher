@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		922AB2F620E1F57100E5C7E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922AB2F520E1F57100E5C7E6 /* Assets.xcassets */; };
+		926EEFEC20E1DC99006E36FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EEFEB20E1DC99006E36FD /* AppDelegate.swift */; };
+		926EEFF120E1DC99006E36FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926EEFEF20E1DC99006E36FD /* Main.storyboard */; };
+		926EEFF620E1DC99006E36FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926EEFF420E1DC99006E36FD /* LaunchScreen.storyboard */; };
+		926EF00120E1E094006E36FD /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EF00020E1E094006E36FD /* Coffee.swift */; };
+		926EF00D20E1E1F1006E36FD /* GridCoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EF00B20E1E1F1006E36FD /* GridCoffeeCell.swift */; };
+		926EF00E20E1E1F1006E36FD /* GridCoffeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926EF00C20E1E1F1006E36FD /* GridCoffeeCell.xib */; };
+		92DD263620E1E8FE00427DB7 /* CoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DD263520E1E8FE00427DB7 /* CoffeeViewController.swift */; };
+		A8957443DCAD1E9DB4A49EFB /* Pods_Example_DisplaySwitcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DC7731A2E4D6AF8C4A8E36 /* Pods_Example_DisplaySwitcher.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16DC7731A2E4D6AF8C4A8E36 /* Pods_Example_DisplaySwitcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_DisplaySwitcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8E592273AA521A24C835BB /* Pods-Example DisplaySwitcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example DisplaySwitcher.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example DisplaySwitcher/Pods-Example DisplaySwitcher.release.xcconfig"; sourceTree = "<group>"; };
+		922AB2F520E1F57100E5C7E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		926EEFE820E1DC99006E36FD /* Example DisplaySwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example DisplaySwitcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		926EEFEB20E1DC99006E36FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		926EEFF020E1DC99006E36FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		926EEFF520E1DC99006E36FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		926EEFF720E1DC99006E36FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926EF00020E1E094006E36FD /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		926EF00B20E1E1F1006E36FD /* GridCoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCoffeeCell.swift; sourceTree = "<group>"; };
+		926EF00C20E1E1F1006E36FD /* GridCoffeeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCoffeeCell.xib; sourceTree = "<group>"; };
+		92DD263520E1E8FE00427DB7 /* CoffeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewController.swift; sourceTree = "<group>"; };
+		B297F53A4E4F6DD33241FF2B /* Pods-Example DisplaySwitcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example DisplaySwitcher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example DisplaySwitcher/Pods-Example DisplaySwitcher.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		926EEFE520E1DC99006E36FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8957443DCAD1E9DB4A49EFB /* Pods_Example_DisplaySwitcher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38FCBE952B7991C8041752D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16DC7731A2E4D6AF8C4A8E36 /* Pods_Example_DisplaySwitcher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		926EEFDF20E1DC98006E36FD = {
+			isa = PBXGroup;
+			children = (
+				926EEFEA20E1DC99006E36FD /* Example DisplaySwitcher */,
+				926EEFE920E1DC99006E36FD /* Products */,
+				C726F6D2EED9C3D3BA778CF8 /* Pods */,
+				38FCBE952B7991C8041752D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		926EEFE920E1DC99006E36FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				926EEFE820E1DC99006E36FD /* Example DisplaySwitcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		926EEFEA20E1DC99006E36FD /* Example DisplaySwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				926EF00220E1E115006E36FD /* supporting files */,
+				926EEFFF20E1E085006E36FD /* model */,
+				926EEFFE20E1E082006E36FD /* view */,
+				926EEFFD20E1E07C006E36FD /* controller */,
+				926EEFF720E1DC99006E36FD /* Info.plist */,
+			);
+			path = "Example DisplaySwitcher";
+			sourceTree = "<group>";
+		};
+		926EEFFD20E1E07C006E36FD /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				92DD263520E1E8FE00427DB7 /* CoffeeViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		926EEFFE20E1E082006E36FD /* view */ = {
+			isa = PBXGroup;
+			children = (
+				926EF00420E1E171006E36FD /* cell */,
+				926EF00320E1E166006E36FD /* storyboard */,
+				922AB2F520E1F57100E5C7E6 /* Assets.xcassets */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		926EEFFF20E1E085006E36FD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				926EF00020E1E094006E36FD /* Coffee.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		926EF00220E1E115006E36FD /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				926EEFEB20E1DC99006E36FD /* AppDelegate.swift */,
+			);
+			path = "supporting files";
+			sourceTree = "<group>";
+		};
+		926EF00320E1E166006E36FD /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				926EEFEF20E1DC99006E36FD /* Main.storyboard */,
+				926EEFF420E1DC99006E36FD /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		926EF00420E1E171006E36FD /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				926EF00B20E1E1F1006E36FD /* GridCoffeeCell.swift */,
+				926EF00C20E1E1F1006E36FD /* GridCoffeeCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		C726F6D2EED9C3D3BA778CF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B297F53A4E4F6DD33241FF2B /* Pods-Example DisplaySwitcher.debug.xcconfig */,
+				6A8E592273AA521A24C835BB /* Pods-Example DisplaySwitcher.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		926EEFE720E1DC99006E36FD /* Example DisplaySwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926EEFFA20E1DC99006E36FD /* Build configuration list for PBXNativeTarget "Example DisplaySwitcher" */;
+			buildPhases = (
+				5EA842D1CDA5A4A5A74A409D /* [CP] Check Pods Manifest.lock */,
+				926EEFE420E1DC99006E36FD /* Sources */,
+				926EEFE520E1DC99006E36FD /* Frameworks */,
+				926EEFE620E1DC99006E36FD /* Resources */,
+				96AE2FB62C532F67790F19CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Example DisplaySwitcher";
+			productName = "Example DisplaySwitcher";
+			productReference = 926EEFE820E1DC99006E36FD /* Example DisplaySwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		926EEFE020E1DC98006E36FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Arifin Firdaus";
+				TargetAttributes = {
+					926EEFE720E1DC99006E36FD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 926EEFE320E1DC98006E36FD /* Build configuration list for PBXProject "Example DisplaySwitcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 926EEFDF20E1DC98006E36FD;
+			productRefGroup = 926EEFE920E1DC99006E36FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				926EEFE720E1DC99006E36FD /* Example DisplaySwitcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		926EEFE620E1DC99006E36FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926EEFF620E1DC99006E36FD /* LaunchScreen.storyboard in Resources */,
+				926EF00E20E1E1F1006E36FD /* GridCoffeeCell.xib in Resources */,
+				922AB2F620E1F57100E5C7E6 /* Assets.xcassets in Resources */,
+				926EEFF120E1DC99006E36FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EA842D1CDA5A4A5A74A409D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example DisplaySwitcher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96AE2FB62C532F67790F19CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Example DisplaySwitcher/Pods-Example DisplaySwitcher-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DisplaySwitcher/DisplaySwitcher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DisplaySwitcher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example DisplaySwitcher/Pods-Example DisplaySwitcher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		926EEFE420E1DC99006E36FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DD263620E1E8FE00427DB7 /* CoffeeViewController.swift in Sources */,
+				926EF00D20E1E1F1006E36FD /* GridCoffeeCell.swift in Sources */,
+				926EEFEC20E1DC99006E36FD /* AppDelegate.swift in Sources */,
+				926EF00120E1E094006E36FD /* Coffee.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		926EEFEF20E1DC99006E36FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926EEFF020E1DC99006E36FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		926EEFF420E1DC99006E36FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926EEFF520E1DC99006E36FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		926EEFF820E1DC99006E36FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		926EEFF920E1DC99006E36FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		926EEFFB20E1DC99006E36FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B297F53A4E4F6DD33241FF2B /* Pods-Example DisplaySwitcher.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6T249GHKX;
+				INFOPLIST_FILE = "Example DisplaySwitcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifinfrds.Example-DisplaySwitcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		926EEFFC20E1DC99006E36FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8E592273AA521A24C835BB /* Pods-Example DisplaySwitcher.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6T249GHKX;
+				INFOPLIST_FILE = "Example DisplaySwitcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifinfrds.Example-DisplaySwitcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		926EEFE320E1DC98006E36FD /* Build configuration list for PBXProject "Example DisplaySwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926EEFF820E1DC99006E36FD /* Debug */,
+				926EEFF920E1DC99006E36FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926EEFFA20E1DC99006E36FD /* Build configuration list for PBXNativeTarget "Example DisplaySwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926EEFFB20E1DC99006E36FD /* Debug */,
+				926EEFFC20E1DC99006E36FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 926EEFE020E1DC98006E36FD /* Project object */;
+}
